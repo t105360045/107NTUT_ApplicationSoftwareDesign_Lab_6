@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(messageAdapter);
 
         Data[] cubeeData = new Data[10];
-        for (int i = 0; i < cubeeData.length; i++) {
+        for (int i = 0; i < cubeeData.length; i++)
+        {
             cubeeData[i] = new Data();
         }
         cubeeData[0].name = "哭哭";
@@ -91,17 +92,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public int getCount() {
+        public int getCount()
+        {
             return data.length;
         }
 
         @Override
-        public Object getItem(int position) {
+        public Object getItem(int position)
+        {
             return data[position];
         }
 
         @Override
-        public long getItemId(int position) {
+        public long getItemId(int position)
+        {
             return 0;
         }
 
