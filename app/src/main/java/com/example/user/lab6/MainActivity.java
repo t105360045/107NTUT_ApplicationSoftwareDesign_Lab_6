@@ -13,9 +13,8 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
-
+public class MainActivity extends AppCompatActivity
+{
     class Data
     {
         int photo;
@@ -27,14 +26,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Data[] transData = new Data[4];
-        for (int i = 0; i < transData.length; i++) {
+        for (int i = 0; i < transData.length; i++)
             transData[i] = new Data();
-        }
-        transData[0].name = "腳踏車";
+        transData[0].name = "記憶體耗盡";
         transData[1].name = "機車";
         transData[2].name = "汽車";
         transData[3].name = "巴士";
-        transData[0].photo = R.drawable.trans1;
+        transData[0].photo = R.drawable.trans0;
         transData[1].photo = R.drawable.trans2;
         transData[2].photo = R.drawable.trans3;
         transData[3].photo = R.drawable.trans4;
@@ -49,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(messageAdapter);
 
         Data[] cubeeData = new Data[10];
+
         for (int i = 0; i < cubeeData.length; i++)
-        {
             cubeeData[i] = new Data();
-        }
+
         cubeeData[0].name = "哭哭";
         cubeeData[1].name = "發抖";
         cubeeData[2].name = "再見";
