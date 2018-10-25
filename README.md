@@ -1,4 +1,1 @@
 # 107NTUT_ApplicationSoftwareDesign_Lab_6
-# 107NTUT_ApplicationSoftwareDesign_Lab_6
-# 107NTUT_ApplicationSoftwareDesign_Lab_6
-# 107NTUT_ApplicationSoftwareDesign_Lab_6
